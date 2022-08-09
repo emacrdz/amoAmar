@@ -19,7 +19,7 @@ body {
     font-size: 34px;
     display: flex;
     justify-content: center;
-    padding: 20px 0px 10px 0px;
+    padding: 40px 0px 10px 0px;
 }
 
 .content {
@@ -50,8 +50,8 @@ body {
     padding-right: 34px;
 }
 
-.textImg {
-    font-size: 18px;
+.dateImg {
+    font-size: 20px;
     display: flex;
     justify-content: left;
     padding-top: 5px;
@@ -59,7 +59,7 @@ body {
 }
 
 .infoImg {
-    font-size: 22px;
+    font-size: 26px;
     display: inline-block;
     padding-top: 3px;
 }
@@ -95,7 +95,7 @@ body {
     padding: 10px 60px;
 }
 
-.textImg {
+.dateImg {
     font-size: 12px;
 }
 
