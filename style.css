@@ -27,7 +27,6 @@ body {
     height: 750px;
     display: flex;
     overflow: auto;
-    overflow-y: hidden;
 }
 
 .content__Img {
