@@ -67,6 +67,7 @@ body {
 
 ::-webkit-scrollbar {
     height: 7px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -76,6 +77,7 @@ body {
 
 ::-webkit-scrollbar-corner {
     background-color: #4169e1;
+    border-radius: 800px;
 }
 
 .footer {
@@ -117,6 +119,7 @@ body {
 
 ::-webkit-scrollbar {
     height: 9px;
+    width: 9px;
 }
 
 .footer {
