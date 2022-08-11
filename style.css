@@ -27,6 +27,7 @@ body {
     height: 750px;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
 }
 
 .content__Img {
@@ -62,7 +63,6 @@ body {
     font-size: 26px;
     display: inline-block;
     padding-top: 3px;
-    overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
