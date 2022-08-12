@@ -37,7 +37,7 @@ body {
 
 .Img {    
     max-width:400px;
-    max-height:400px;
+    max-height: 400px;
     width: auto;
     height: auto;
     overflow: auto;
@@ -115,9 +115,14 @@ body {
     height: auto;
 }
 
+.infoImg {
+    height: 100;
+    overflow: auto;
+}
+
 ::-webkit-scrollbar {
-    height: 9px;
-    width: 9px;
+    height: 8px;
+    width: 5px;
 }
 
 .footer {
