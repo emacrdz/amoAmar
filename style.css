@@ -13,9 +13,9 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 81%;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: #f0f8ff;
+    color: rgb(240, 248, 255);
 }
 
 .menu__SectionTop {
@@ -41,9 +41,6 @@ body {
 .Img {    
     max-width:400px;
     max-height: 400px;
-    width: auto;
-    height: auto;
-    overflow: auto;
 }
 
 .firstImage {
@@ -78,7 +75,7 @@ body {
 }
 
 ::-webkit-scrollbar-corner {
-    background-color: #4169e1;
+    background-color: #4169e100;
     border-radius: 800px;
 }
 
