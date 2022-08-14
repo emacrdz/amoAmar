@@ -9,9 +9,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 body {
     background-image:url(https://github.com/emacrdz/amoAmar/blob/main/img/background.jpeg?raw=true);
+    background-color: #000;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -30,6 +30,7 @@ body {
     height: 750px;
     display: flex;
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 .content__Img {
@@ -89,10 +90,11 @@ body {
 #toTheStart {
     text-decoration: none;
     color: rgb(240, 248, 255);
+    transition: 0.3s;
 }
 
 #toTheStart:hover {
-    
+    letter-spacing: 5px;
 }
 
 @media (min-width: 900px) {
@@ -116,13 +118,6 @@ body {
 
 .infoImg {
     font-size: 20px;
-}
-
-.Img {    
-    max-width:400px;
-    max-height:400px;
-    width: auto;
-    height: auto;
 }
 
 .infoImg {
